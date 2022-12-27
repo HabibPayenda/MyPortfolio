@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  background-color: white;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navList li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.linkBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

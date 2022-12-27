@@ -1,0 +1,26 @@
+.container {
+  flex: 3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #eee;
+}
+
+.profileImg {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
