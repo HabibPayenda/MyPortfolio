@@ -1,10 +1,14 @@
 .container {
   flex: 3;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   background-color: white;
   height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  scrollbar-base-color: #FFB400;
 }
 
 .details {
@@ -14,7 +18,7 @@
   justify-content: center;
   gap: 15px;
   padding-bottom: 10px;
-  border-bottom: solid 1px #eee;
+  border-bottom: solid 1px #2B2B2B;
 }
 
 .profileImg {
@@ -23,4 +27,182 @@
   border-radius: 100px;
   margin-top: 50px;
   margin-bottom: 15px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socialIcon {
+  background-color: #FFB400;
+  color: #2B2B2B;
+  padding: 5px;
+  border-radius: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 15px 10px;
+  border-bottom: solid 1px #2B2B2B;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  list-style: none;
+}
+
+.infoContainerItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  gap: 10px;
+  color: #2B2B2B;
+}
+
+.infoItemTitle {
+  background-color: #FFB400;
+  padding: 1px 3px;
+}
+
+.languagesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 15px;
+  gap: 10px;
+  border-bottom: solid 1px #2B2B2B;
+}
+
+.languagesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  gap: 10px;
+}
+
+.languagesListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.languagesItemTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+
+.languagesItemBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.languagesProgressContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px;
+  border: solid 1px #FFB400;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.languagesProgress {
+  width: 90%;
+  height: 5px;
+  background-color: #FFB400;
+  border-radius: 10px;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 15px;
+  gap: 10px;
+  border-bottom: solid 1px #2B2B2B;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  gap: 10px;
+}
+
+.extraSkillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 15px;
+  gap: 10px;
+  border-bottom: solid 1px #2B2B2B;
+}
+
+.extraSkillsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  gap: 10px;
+}
+
+.extraSkillsListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  color: #2B2B2B;
+}
+
+.extraSkillsIcon {
+  color: #FFB400;
+}
+
+.linkBtn {
+  display: flex;
+  padding: 10px 15px;
+  margin-top: 20px;
+  gap: 15px;
+  text-transform: uppercase;
+  background-color: #FFB400;
+  border: solid 1px #2B2B2B;
+  font-weight: bold;
 }

@@ -6,6 +6,7 @@
 
 html {
   background-color: #eee;
+  scrollbar-width: 1px !important;
 }
 
 .App {
